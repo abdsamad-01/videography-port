@@ -15,7 +15,7 @@ const Portfolio = () => {
 
                 <div className="grid grid-cols-3 md:grid-cols-2 sm:grid-cols-1 mt-3 gap-8 sm:gap-x-0 overflow-hidden">
                     {portfolios.map(portfolio => (
-                        <div className="relative rounded-md h-[275px] w-[390px] md:h-[250] md:w-[250] cursor-pointer" key={portfolio.id}>
+                        <div className="relative rounded-md h-[275px] w-[390px] md:h-[275] md:w-[340] cursor-pointer" key={portfolio.id}>
                             <img
                                 src={portfolio.image}
                                 className="absolute h-full w-full top-0 rounded-md object-contain"
