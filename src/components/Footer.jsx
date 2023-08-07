@@ -6,8 +6,8 @@ const Footer = () => {
     const [selected, setSelected] = useState('')
 
     return (
-        <div className='pb-6'>
-            <div className="w-full flex flex-col items-center justify-between py-1 px-14 ">
+        <div className=''>
+            <div className="w-full flex flex-col items-center  py-1 px-14 ">
                 <div className='w-[60px] h-[60px]'>
                     <img
                         src={logo}
@@ -16,7 +16,7 @@ const Footer = () => {
                     />
                 </div>
 
-                <ul className='flex flex-row sm:flex-col sm:text-lg space-x-14 sm:space-x-0 sm:text-center my-5'>
+                <ul className='flex flex-row sm:flex-col sm:text-lg space-x-14 sm:space-x-0 sm:text-center my-5 md:grid grid-cols-3 gap-3 w-full'>
                     {navLinks.map(navLink => (
                         <li
                             key={navLink.id}
@@ -27,6 +27,10 @@ const Footer = () => {
                         </li>
                     ))}
                 </ul>
+
+                <div className='mt-2'>
+                    <span className='text-base font-satoshi'> &copy; All Rights Reserved. </span>
+                </div>
             </div>
 
         </div>
