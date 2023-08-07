@@ -1,11 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
-import heroImage from '../assets/hero.png'
+import heroImage from '../assets/hero-img.png'
 import svg from '../assets/ricky.svg'
 
 const Hero = () => {
     return (
-        <div className="flex flex-row md:flex-col w-full md:px-5 sm:px-3 md:pt-24 items-center justify-between pl-20 llg:pl-9 md:pl-0 overflow-hidden">
-            <div className="w-[87%] md:w-full">
+        <div className="flex flex-row md:flex-col w-full md:px-5 pt-10 sm:px-3 md:pt-24 items-center justify-between pl-20 llg:pl-9 md:pl-0 overflow-hidden">
+            <div className="w-[89%] md:w-full">
                 <div className='md:px-4 sm:px-1'>
                     <img
                         src={svg}
@@ -21,11 +21,11 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div className='mt-4 md:mt-5 md:mx-auto sm:mx-0'>
+            <div className='mt-14 md:mt-5 md:mx-auto sm:mx-0'>
                 <img
                     src={heroImage}
                     alt='A smoky Videography equipment'
-                    className='h-[75%] w-full md:w-[60%] sm:w-full mx-auto sm:mx-0'
+                    className=' w-full md:w-[60%] sm:w-full mx-auto sm:mx-0'
                 />
             </div>
         </div>
