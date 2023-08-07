@@ -12,7 +12,7 @@ const Hero = () => {
                         alt=''
                         className='object-contain w-[26px] h-[26px] mb-5 ml-1'
                     />
-                    <h1 className="font-satoshi font-extrabold text-[4.25rem] leading-[1] llg:text-6xl sm:text-5xl"> Let's Document Your Incredible <span className='text-btnColor2 font-extrabold'> Moments </span></h1>
+                    <h1 className="font-satoshi font-extrabold text-[4.27rem] leading-[1.1] llg:text-6xl sm:text-5xl"> Let's Document Your Incredible <span className='text-btnColor2 font-extrabold'> Moments </span></h1>
                     <p className="text-[1.1rem] font-satoshi w-[95%] my-5"> Our team has a specialization in capturing incredible and exceptional moments, which gives us the opportunity to create high-quality and stimulating videos.</p>
 
                     <button type='button' className='bg-btnColor2 mt-5 text-gray-50 px-10 py-[10px] border-none shadow-sm rounded-[4px] font-satoshi text-base'>
