@@ -13,9 +13,9 @@ const Portfolio = () => {
                     <p className="para">0ur portfolio contains captivating and mind blowing contents you’d like to see on your devices. kindly go through our portfolio to check out our outstanding projects. </p>
                 </div>
 
-                <div className="grid grid-cols-3 md:grid-cols-2 sm:grid-cols-1 mt-3 gap-8 sm:gap-x-0">
+                <div className="grid grid-cols-3 md:grid-cols-2 sm:grid-cols-1 mt-3 gap-8 sm:gap-x-0 overflow-hidden">
                     {portfolios.map(portfolio => (
-                        <div className="relative rounded-md  cursor-pointer" key={portfolio.id}>
+                        <div className="relative rounded-md h-[275px] w-[390px] md:h-[250] md:w-[250] cursor-pointer" key={portfolio.id}>
                             <img
                                 src={portfolio.image}
                                 className="absolute h-full w-full top-0 rounded-md object-contain"
