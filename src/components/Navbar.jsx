@@ -53,7 +53,7 @@ const Navbar = () => {
                 setSelected={setSelected}
             />
 
-            <button type='button' className='bg-btnColor2 mt-5 text-gray-50 sm:hidden px-7 py-[9px] border-none shadow-sm rounded-[4px] font-satoshi text-[13px]'>
+            <button type='button' className='bg-btnColor2 mt-5 text-gray-50 md:hidden px-7 py-[9px] border-none shadow-sm rounded-[4px] font-satoshi text-[13px]'>
                 Get Started
             </button>
 
