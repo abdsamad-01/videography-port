@@ -3,7 +3,7 @@ export default {
     content: [
         "./index.html",
         "./src/**/*.{js,ts,jsx,tsx}",
-      ],
+    ],
     theme: {
         extend: {
             colors: {
@@ -13,6 +13,10 @@ export default {
                 'variant': '#EDE4DD',
                 'btnColor': '#4D5D77',
                 'btnColor2': '#48668E'
+            },
+            inset: {
+                45: '45%',
+                65: '65px',
             },
             // width: {
             //     215: '215px',

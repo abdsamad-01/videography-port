@@ -28,7 +28,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
 
     return (
-        <div className="glass w-full flex flex-row items-center justify-between py-1 px-14 md:px-4 sm:px-1 sm:pr-3">
+        <div className="black w-full fixed top-0 flex flex-row items-center justify-between py-1 px-14 md:px-4 sm:px-1">
             {/* <div className='w-[60px] h-[60px]'> */}
             <img
                 src={logo}
@@ -68,7 +68,7 @@ const Navbar = () => {
                     )
                 }
                 {isOpen && (
-                    <div className='fixed -botom-65 inset-0 z-[900] flex flex-col nav-h bg-black text-gray-50'>
+                    <div className='fixed top-65 inset-0 z-[900] flex flex-col nav-h bg-black text-gray-50'>
                         <MenuLinks selected={setSelected} setSelected={setSelected} isMobile />
                         {/* <button type='button' className='bg-btnColor2 mt-5 text-gray-50 sm:hidden px-7 py-[9px] border-none shadow-sm rounded-[4px] font-satoshi text-[13px]'>
                             Get Started
