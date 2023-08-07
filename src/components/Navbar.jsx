@@ -5,9 +5,9 @@ import { navLinks } from '../constants'
 import menu from '../assets/menu.png'
 import close from '../assets/cross.png'
 
-const MenuLinks = ({ selected, setSelected }) => {
+const MenuLinks = ({ isMobile, selected, setSelected }) => {
     return (
-        <ul className='flex flex-row md:flex-col space-x-14 md:hidden md:space-x-0 md:items-center md:justify-center md:min-h-screen '>
+        <ul className={`flex flex-row md:flex-col space-x-14 ${isMobile && 'flex-col h-full'} md:space-x-0 md:items-center md:justify-center md:min-h-screen `}>
             {navLinks.map(navLink => (
                 <a key={navLink.id} href={`${navLink.href}`}>
                     <li
@@ -28,7 +28,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
 
     return (
-        <div className="black w-full fixed top-0 flex flex-row items-center justify-between py-1 px-14 md:px-4 sm:px-1">
+        <div className="bg-black w-full fixed top-0 flex flex-row items-center justify-between py-1 px-14 md:px-4 sm:px-1">
             {/* <div className='w-[60px] h-[60px]'> */}
             <img
                 src={logo}
@@ -36,14 +36,17 @@ const Navbar = () => {
                 className='object-contain w-[55px] h-[55px]'
             />
 
-            <MenuLinks
-                selected={selected}
-                setSelected={setSelected}
-            />
+            <div className='md:hidden'>
+                <MenuLinks
+                    selected={selected}
+                    setSelected={setSelected}
+                />
 
-            {/* <button type='button' className='bg-btnColor2 mt-5 text-gray-50 md:hidden px-7 py-[9px] border-none shadow-sm rounded-[4px] font-satoshi text-[13px]'>
-                Get Started
-            </button> */}
+                <button type='button' className='bg-btnColor2 mt-5 text-gray-50 md:hidden px-7 py-[9px] border-none shadow-sm rounded-[4px] font-satoshi text-[13px]'>
+                    Get Started
+                </button>
+            </div>
+
 
             <div className='hidden md:flex z-[90]'>
                 {isOpen ? (

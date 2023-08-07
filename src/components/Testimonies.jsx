@@ -1,8 +1,8 @@
 
-const Testimonials = () => {
+const Testimonies = () => {
     return (
         <div className="font-satoshi text-center py-8">
-            <h3 className="font-bold text-4xl"> TESTIMONIALS </h3>
+            <h3 className="font-bold text-4xl"> TESTIMONIES </h3>
             <p className="text-lg  my-5"> Our Happy Clients </p>
 
             <div className="flex flex-row md:flex-col md:mx-6 sm:mx-3 items-center justify-center gap-10 my-4">
@@ -26,5 +26,5 @@ const Testimonials = () => {
     )
 }
 
-export default Testimonials
+export default Testimonies
 

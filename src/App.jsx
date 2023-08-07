@@ -1,4 +1,4 @@
-import { Navbar, Hero, AboutMe, Services, Pricing, Portfolio, Stats, ReachOut, Testimonials, Contact, Enquiry, Footer } from "./components"
+import { Navbar, Hero, AboutMe, Services, Pricing, Portfolio, Stats, ReachOut, Testimonies, Contact, Enquiry, Footer } from "./components"
 
 function App() {
     return (
@@ -9,7 +9,6 @@ function App() {
             </div>
 
             <div className='bg-variant py-14 sm:py-6 px-28 llg:px-12 md:px-4'>
-                <AboutMe />
                 <Services />
                 <Pricing />
             </div>
@@ -24,9 +23,12 @@ function App() {
             </div>
 
             <div className="bg-black text-gray-50 py-8 px-28 llg:px-12 md:px-5 sm:px-4">
-                <Testimonials />
+                <Testimonies />
             </div>
 
+            <div className='bg-variant py-14 sm:py-6 px-28 llg:px-12 md:px-4'>
+                <AboutMe />
+            </div>
             <div>
                 <Contact />
             </div>

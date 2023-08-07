@@ -1,9 +1,10 @@
 
 export const navLinks = [
     { id: 201, title: 'Home', href: '' },
-    { id: 204, title: 'About', href: '#about' },
-    { id: 207, title: 'Portfolio', href: '#portfolio' },
+    { id: 202, title: 'Services', href: '#service' },
     { id: 209, title: 'Pricing', href: '#pricing' },
+    { id: 207, title: 'Project', href: '#project' },
+    { id: 204, title: 'About', href: '#about' },
     { id: 211, title: 'Contact', href: '#contact' },
 ]
 
