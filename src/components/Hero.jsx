@@ -4,7 +4,7 @@ import svg from '../assets/ricky.svg'
 
 const Hero = () => {
     return (
-        <div className="flex min-h-screen flex-row md:flex-col w-full md:px-5 sm:px-3 md:mt-10 items-center justify-between pl-20 md:pl-0 overflow-hidden">
+        <div className="flex flex-row md:flex-col w-full md:px-5 sm:px-3 md:mt-10 items-center justify-between pl-20 md:pl-0 overflow-hidden">
             <div className="w-[87%] md:w-full">
                 <div className='md:px-3'>
                     <img
@@ -21,7 +21,7 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div className='mt-4 -mr-2'>
+            <div className='mt-4 md:mt-0 -mr-2'>
                 <img
                     src={heroImage}
                     alt='A smoky Videography equipment'
