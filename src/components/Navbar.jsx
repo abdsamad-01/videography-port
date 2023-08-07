@@ -11,7 +11,7 @@ const MenuLinks = ({ selected, setSelected }) => {
             {navLinks.map(navLink => (
                 <a key={navLink.id} href={`${navLink.href}`}>
                     <li
-                        className={`${selected == navLink.title && 'text-btnColor2'} font-satoshi text-[0.95rem] cursor-pointer`}
+                        className={`${selected == navLink.title && 'text-btnColor2'} font-satoshi text-base cursor-pointer`}
                         onClick={() => setSelected(navLink.title)}
                     >
                         {navLink.title}
@@ -41,9 +41,9 @@ const Navbar = () => {
                 setSelected={setSelected}
             />
 
-            <button type='button' className='bg-btnColor2 mt-5 text-gray-50 md:hidden px-7 py-[9px] border-none shadow-sm rounded-[4px] font-satoshi text-[13px]'>
+            {/* <button type='button' className='bg-btnColor2 mt-5 text-gray-50 md:hidden px-7 py-[9px] border-none shadow-sm rounded-[4px] font-satoshi text-[13px]'>
                 Get Started
-            </button>
+            </button> */}
 
             <div className='hidden md:flex z-[90]'>
                 {isOpen ? (

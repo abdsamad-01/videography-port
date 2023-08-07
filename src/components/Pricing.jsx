@@ -1,42 +1,42 @@
-import { useState, useEffect, useRef } from "react"
+import {  useRef } from "react"
 import { pricings } from "../constants"
-import right from '../assets/right.png'
-import left from '../assets/left.png'
+// import right from '../assets/right.png'
+// import left from '../assets/left.png'
 
 
 const Pricing = () => {
     const parentRef = useRef(null);
     const scrollRef = useRef(null);
-    const [hideButtons, setHideButtons] = useState(false)
+    // const [hideButtons, setHideButtons] = useState(false)
 
-    const handleScroll = (direction) => {
-        const { current } = scrollRef;
-        const scrollAmount = window.innerWidth > 1800 ? 385 : 320;
+    // const handleScroll = (direction) => {
+    //     const { current } = scrollRef;
+    //     const scrollAmount = window.innerWidth > 1800 ? 385 : 320;
 
-        if (direction === 'left') {
-            current.scrollLeft -= scrollAmount;
-        } else {
-            current.scrollLeft += scrollAmount;
-        }
-    }
+    //     if (direction === 'left') {
+    //         current.scrollLeft -= scrollAmount;
+    //     } else {
+    //         current.scrollLeft += scrollAmount;
+    //     }
+    // }
 
-    const isScrollable = () => {
-        const { current } = scrollRef;
-        const { current: parent } = parentRef;
+    // const isScrollable = () => {
+    //     const { current } = scrollRef;
+    //     const { current: parent } = parentRef;
 
-        if (current?.scrollWidth >= parent?.offsetWidth) {
-            setHideButtons(false);
-        } else setHideButtons(true)
-    }
+    //     if (current?.scrollWidth >= parent?.offsetWidth) {
+    //         setHideButtons(false);
+    //     } else setHideButtons(true)
+    // }
 
-    useEffect(() => {
-        isScrollable();
-        window.addEventListener('resize', isScrollable);
+    // useEffect(() => {
+    //     isScrollable();
+    //     window.addEventListener('resize', isScrollable);
 
-        return () => {
-            window.removeEventListener('resize', isScrollable);
-        }
-    })
+    //     return () => {
+    //         window.removeEventListener('resize', isScrollable);
+    //     }
+    // })
     return (
         <div className="py-14" id='pricing'>
             <h2 className='font-satoshi text-3xl font-bold text-center'> PRICING </h2>
@@ -71,7 +71,7 @@ const Pricing = () => {
                         </div>
                     ))}
 
-                    {!hideButtons &&
+                    {/* {!hideButtons &&
                         <>
                             <div onClick={() => handleScroll('left')} className='absolute h-8 w-8 bottom-[40%] cursor-pointer -left-5 minlg:h-12 minlg:w-12'>
                                 <img
@@ -88,7 +88,7 @@ const Pricing = () => {
                                 />
                             </div>
                         </>
-                        }
+                        } */}
                 </div>
             </div>
 
