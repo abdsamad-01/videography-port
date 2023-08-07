@@ -1,4 +1,5 @@
 import { portfolios } from '../constants'
+import 'animate.css';
 
 const Portfolio = () => {
     return (
