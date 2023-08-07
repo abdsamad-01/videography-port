@@ -5,7 +5,7 @@ const Services = () => {
     return (
         <div className='border-t border-b border-gray-300 py-10'>
             <h2 className='font-satoshi text-3xl font-bold text-center'> SERVICES </h2>
-            <div className='my-10 grid grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 px-20 llg:px-6 sm:px-3 font-satoshi'>
+            <div className='my-10 grid grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 px-20 llg:gap-7 llg:px-6 sm:px-2 font-satoshi'>
                 <div className='shadow-sm rounded-md bg-gray-100'>
                     <img
                         src={Images.service1}

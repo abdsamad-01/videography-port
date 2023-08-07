@@ -8,7 +8,7 @@ function App() {
                 <Hero />
             </div>
 
-            <div className='bg-variant py-14 sm:py-6 px-28 md:px-4'>
+            <div className='bg-variant py-14 sm:py-6 px-28 llg:px-12 md:px-4'>
                 <AboutMe />
                 <Services />
                 <Pricing />
@@ -19,11 +19,11 @@ function App() {
                 <Stats />
             </div>
 
-            <div className='bg-variant py-14 px-28 md:px-5 sm:px-4'>
+            <div className='bg-variant py-14 px-24 llg:px-12 md:px-5 sm:px-4'>
                 <ReachOut />
             </div>
 
-            <div className="bg-black text-gray-50 py-8 px-28 md:px-5 sm:px-4">
+            <div className="bg-black text-gray-50 py-8 px-28 llg:px-12 md:px-5 sm:px-4">
                 <Testimonials />
             </div>
 

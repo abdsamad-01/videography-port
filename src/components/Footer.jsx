@@ -16,7 +16,7 @@ const Footer = () => {
                     />
                 </div>
 
-                <ul className='flex flex-row sm:flex-col space-x-14 sm:space-x-0 sm:text-center my-5'>
+                <ul className='flex flex-row sm:flex-col sm:text-lg space-x-14 sm:space-x-0 sm:text-center my-5'>
                     {navLinks.map(navLink => (
                         <li
                             key={navLink.id}

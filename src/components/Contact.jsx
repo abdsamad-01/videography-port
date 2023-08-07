@@ -2,7 +2,7 @@ import bgImage from '../assets/bgg.png'
 
 const Contact = () => {
     return (
-        <div className="cont relative flex justify-center items-center" id='contact'>
+        <div className="cont relative w-full flex justify-center items-center" id='contact'>
             <div className='absolute top-0 min-w-full h-full'>
                 <img
                     src={bgImage}
@@ -11,7 +11,7 @@ const Contact = () => {
             </div>
             <div className='absolute bg-black h-full w-full z-10 opacity-70' />
 
-            <div className='bg-black mx-auto h-fit w-[35%] md:w-full rounded-md z-20 text-center p-5 px-7 text-gray-50 font-satoshi'>
+            <div className='bg-black mx-auto my-auto llg:w-full llg:mx-32 llg:px-10 md:px-4 md:mx-9 sm:mx-0 w-[35%] md:w-full rounded-md z-20 text-center p-5 px-7 text-gray-50 font-satoshi'>
                 <h3 className="font-medium text-2xl">Didn’t Get The Package You Desire? <br /> Create a Special Package For You</h3>
                 <p className="my-3">Kindly reach out to me, and describe your own special package as comprehensively as possible or choose for the list above</p>
 
