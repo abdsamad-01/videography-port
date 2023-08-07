@@ -45,7 +45,7 @@ const Pricing = () => {
                     {pricings.map(pricing => (
                         <div
                             key={pricing.id}
-                            className="flex flex-col border bg-gray-50 font-satoshi rounded-md h-[400px] min-w-[320px] sm:w-full relative"
+                            className="flex flex-col border bg-gray-50 font-satoshi rounded-md h-[400px] sm:h-[430px] min-w-[320px] sm:w-full relative"
                         >
                             <div className='p-4'>
                                 <div>

@@ -5,7 +5,7 @@ const Testimonials = () => {
             <h3 className="font-bold text-4xl"> TESTIMONIALS </h3>
             <p className="text-lg  my-5"> Our Happy Clients </p>
 
-            <div className="flex flex-row md:flex-col md:mx-3 items-center justify-center gap-10 my-4">
+            <div className="flex flex-row md:flex-col md:mx-6 sm:mx-3 items-center justify-center gap-10 my-4">
                 <div className="glass p-3 rounded-sm">
                     <h5 className="text-lg"> Tramor Kooe </h5>
                     <p className="py-4">I have always picture my wedding to be a memorable event and the videographer is such a competent and jovial person. I am glad i got what i wished for........................ bride</p>

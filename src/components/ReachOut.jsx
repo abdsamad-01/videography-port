@@ -19,7 +19,7 @@ const ReachOut = () => {
 
             <div className="pt-20 pb-10">
                 <h2 className='text-4xl sm:text-[28px] font-bold text-center mb-4 w-full'> Why People Choose Us </h2>
-                <div className="mt-10 flex flex-row md:flex-col gap-8 sm:gap-12">
+                <div className="mt-10 flex flex-row md:flex-col md:mx-4 sm:mx-1 gap-8 sm:gap-12">
                     {reasons.map(reason => (
                         <div key={reason.id} className="font-satoshi flex flex-col items-center justify-center">
                             <img 
