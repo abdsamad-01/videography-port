@@ -17,17 +17,19 @@ const Footer = () => {
                 </div>
             </div>
 
-            <ul className='flex items-center justify-center md:grid grid-cols-6 md:pr-8 md:grid-cols-3 xs:grid-cols-2 sm:text-lg my-5 w-full'>
-                {navLinks.map(navLink => (
-                    <li
-                        key={navLink.id}
-                        className={`${selected == navLink.title && 'text-btnColor2'} font-satoshi text-[0.99rem] cursor-pointer mx-10 md:mx-20 sm:mx-14`}
-                        onClick={() => setSelected(navLink.title)}
-                    >
-                        {navLink.title}
-                    </li>
-                ))}
-            </ul>
+            <div className='flex items-center justify-center'>
+                <ul className='flex items-center gap-16 md:gap-y-1 justify-between md:grid grid-cols-6 md:grid-cols-3 xs:grid-cols-2 sm:text-lg my-5 w-full'>
+                    {navLinks.map(navLink => (
+                        <li
+                            key={navLink.id}
+                            className={`${selected == navLink.title && 'text-btnColor2'} font-satoshi text-[0.99rem] cursor-pointer `}
+                            onClick={() => setSelected(navLink.title)}
+                        >
+                            {navLink.title}
+                        </li>
+                    ))}
+                </ul>
+            </div>
 
             <div className='mt-2'>
                 <span className='text-base font-satoshi'> &copy; All Rights Reserved. </span>
