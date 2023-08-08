@@ -8,7 +8,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const Hero = () => {
     return (
-        <div className="flex flex-row md:flex-col w-full md:px-5 pt-10 sm:px-3 md:pt-24 items-center justify-between pl-20 llg:pl-9 md:pl-0 overflow-hidden">
+        <div className="flex flex-row md:flex-col w-full md:px-5 pt-10 sm:px-3 md:pt-24 items-center justify-between pl-20 llg:pl-5 llg:pt-24 md:pl-0 overflow-hidden">
             <div className="w-[89%] md:w-full">
                 <div className='md:px-4 sm:px-1'>
                     <img
@@ -17,7 +17,7 @@ const Hero = () => {
                         className='object-contain w-[26px] h-[26px] mb-5 ml-1'
                     />
 
-                    <h1 className="font-satoshi font-extrabold text-[4.27rem] leading-[1.1] llg:text-6xl sm:text-5xl"> Let's Document Your Incredible <span className='text-btnColor2 font-extrabold'> Moments </span></h1>
+                    <h1 className="font-satoshi font-extrabold text-[4.27rem] leading-[1.01] llg:text-[58px] sm:text-5xl"> Let's Document Your Incredible <span className='text-btnColor2 font-extrabold'> Moments </span></h1>
 
                     <AnimationOnScroll animateIn="animate__fadeInUp" initiallyVisible={true}>
                         <p className="text-[1.1rem] font-satoshi w-[95%] my-5 -z-10 animate__animated animate__fadeInUp"> Our team has a specialization in capturing incredible and exceptional moments, which gives us the opportunity to create high-quality and stimulating videos.</p>
@@ -33,7 +33,7 @@ const Hero = () => {
                 <img
                     src={heroImage}
                     alt='A smoky Videography equipment'
-                    className=' w-full md:w-[60%] sm:w-full mx-auto sm:mx-0'
+                    className=' w-full llg:w-[80%] md:w-[60%] sm:w-full mx-auto sm:mx-0'
                 />
             </div>
         </div>

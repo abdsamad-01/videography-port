@@ -6,8 +6,8 @@ const Footer = () => {
     const [selected, setSelected] = useState('')
 
     return (
-        <div className=''>
-            <div className="w-full flex flex-col items-center justify-center  py-1 px-14 ">
+        <div className='w-full flex mx-auto flex-col justify-center items-center'>
+            <div className="py-1 px-14 md:px-2">
                 <div className='w-[60px] h-[60px]'>
                     <img
                         src={logo}
@@ -15,24 +15,23 @@ const Footer = () => {
                         className='object-contain w-full h-full'
                     />
                 </div>
-
-                <ul className='flex flex-row justify-center items-center sm:flex-col sm:text-lg space-x-14 sm:space-x-0 sm:text-center my-5 md:grid grid-cols-3 gap-3 w-full'>
-                    {navLinks.map(navLink => (
-                        <li
-                            key={navLink.id}
-                            className={`${selected == navLink.title && 'text-btnColor2'} font-satoshi text-[0.99rem] cursor-pointer`}
-                            onClick={() => setSelected(navLink.title)}
-                        >
-                            {navLink.title}
-                        </li>
-                    ))}
-                </ul>
-
-                <div className='mt-2'>
-                    <span className='text-base font-satoshi'> &copy; All Rights Reserved. </span>
-                </div>
             </div>
 
+            <ul className='flex items-center justify-center md:grid grid-cols-6 md:pr-8 md:grid-cols-3 xs:grid-cols-2 sm:text-lg my-5 w-full'>
+                {navLinks.map(navLink => (
+                    <li
+                        key={navLink.id}
+                        className={`${selected == navLink.title && 'text-btnColor2'} font-satoshi text-[0.99rem] cursor-pointer mx-10 md:mx-20 sm:mx-14`}
+                        onClick={() => setSelected(navLink.title)}
+                    >
+                        {navLink.title}
+                    </li>
+                ))}
+            </ul>
+
+            <div className='mt-2'>
+                <span className='text-base font-satoshi'> &copy; All Rights Reserved. </span>
+            </div>
         </div>
     )
 }
