@@ -3,7 +3,7 @@ import 'animate.css';
 
 const Portfolio = () => {
     return (
-        <div className="py-10 px-14 md:px-5 sm:px-3" id='portfolio' >
+        <div className="relative py-10 px-14 md:px-5 sm:px-3" id='portfolio' >
             <h2 className='font-satoshi text-3xl font-bold text-center'> OUR PORTFOLIO </h2>
             <div className="flex flex-col justify-between items-center mt-5 gap-8">
                 <div className="w-[75%] md:w-full font-satoshi text-center sm:text-left">

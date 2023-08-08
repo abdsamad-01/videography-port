@@ -7,7 +7,7 @@ const Footer = () => {
 
     return (
         <div className=''>
-            <div className="w-full flex flex-col items-center  py-1 px-14 ">
+            <div className="w-full flex flex-col items-center justify-center  py-1 px-14 ">
                 <div className='w-[60px] h-[60px]'>
                     <img
                         src={logo}
@@ -16,7 +16,7 @@ const Footer = () => {
                     />
                 </div>
 
-                <ul className='flex flex-row sm:flex-col sm:text-lg space-x-14 sm:space-x-0 sm:text-center my-5 md:grid grid-cols-3 gap-3 w-full'>
+                <ul className='flex flex-row justify-center items-center sm:flex-col sm:text-lg space-x-14 sm:space-x-0 sm:text-center my-5 md:grid grid-cols-3 gap-3 w-full'>
                     {navLinks.map(navLink => (
                         <li
                             key={navLink.id}

@@ -10,7 +10,7 @@ export default {
                 'primary': '#171717',
                 'secondary': '#64CCC5',
                 'tertiary': '#DAFFFB',
-                'variant': '#EDE4DD',
+                'variant': 'C5CCD3',
                 'btnColor': '#4D5D77',
                 'btnColor2': '#48668E'
             },

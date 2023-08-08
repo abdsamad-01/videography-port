@@ -1,4 +1,4 @@
-import {  useRef } from "react"
+import { useRef } from "react"
 import { pricings } from "../constants"
 // import right from '../assets/right.png'
 // import left from '../assets/left.png'
@@ -40,12 +40,12 @@ const Pricing = () => {
     return (
         <div className="py-14" id='pricing'>
             <h2 className='font-satoshi text-3xl font-bold text-center'> PRICING </h2>
-            <div className="relative flex  mt-5 max-w-full" ref={parentRef}>
+            <div className="flex  mt-5 max-w-full" ref={parentRef}>
                 <div className="flex flex-row gap-7 w-max overflow-x-scroll no-scrollbar select-none" ref={scrollRef}>
                     {pricings.map(pricing => (
                         <div
                             key={pricing.id}
-                            className="flex flex-col border bg-gray-50 font-satoshi rounded-md h-[400px] sm:h-[430px] min-w-[320px] sm:w-full relative"
+                            className="flex flex-col  border bg-gray-50 font-satoshi rounded-md h-[380px] min-w-[320px] sm:w-full relative"
                         >
                             <div className='p-4'>
                                 <div>
@@ -67,7 +67,7 @@ const Pricing = () => {
                             </div>
 
 
-                            <button type="button" className="absolute bottom-0 w-full mt-5 px-[4px] font-medium py-3 bg-gray-100 text-gray-800 text-sm"> See All Features </button>
+                            {/* <button type="button" className="absolute bottom-0 w-full mt-5 px-[4px] font-medium py-3 bg-gray-100 text-gray-800 text-sm"> See All Features </button> */}
                         </div>
                     ))}
 

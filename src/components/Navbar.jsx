@@ -31,7 +31,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
 
     return (
-        <div className="bg-black w-full fixed top-0 flex flex-row items-center justify-between py-1 px-14 md:px-4 sm:px-1">
+        <div className="bg-black w-full fixed top-0 z-[900] flex flex-row items-center justify-between py-1 px-14 md:px-4 sm:px-1">
             {/* <div className='w-[60px] h-[60px]'> */}
             <img
                 src={logo}
