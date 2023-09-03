@@ -14,14 +14,16 @@ const Testimonies = () => {
                 </div>
                 <div className="glass p-3 rounded-sm">
                     <h5 className="text-lg"> Kenty </h5>
-                    <p className="py-4">As an artist i enjoy watching music videos of good quality and i hope that one day i’d get a videographer to help me achieve that, thankfully my video came out nice........................ artist</p>
+                    <p className="py-4">As an artist i enjoy watching music videos of good quality and i hope that one day i’d get a videographer to help me achieve that, thankfully my video came out nice.</p>
 
                     <span className="text-sm mt-1 text-tertiary"> ~Artist  </span>
                 </div>
-                {/* <div className="glass p-3 rounded-sm">
-                    <h5 className="text-lg"> Tramor Kooe </h5>
-                    <p className="py-4">I have always picture my wedding to be a memorable event and the videographer is such a competent and jovial person. I am glad i got what i wished for........................ bride</p>
-                </div> */}
+                <div className="glass p-3 rounded-sm">
+                    <h5 className="text-lg"> Omolayo & Seun </h5>
+                    <p className="py-4"> It was an amazing day for us and special thanks to MAB for capturing every detailed part of the wedding, sitting back and watching the full length cinematic film of us over and over again was pure bliss. </p>
+
+                    <span className="text-sm mt-1 text-tertiary"> ~Groom & Bride  </span>
+                </div>
             </div>
             <button type='button' className='bg-btnColor2 mt-5 text-gray-50 px-7 py-[9px] border-none shadow-sm rounded-[4px] font-satoshi text-[13px]'>
                 View More
