@@ -10,7 +10,6 @@ const ReachOut = () => {
                     <img
                         src={image}
                         alt='About Me'
-                        // height={500}
                         className='object-contain '
                     />
                 </div>
