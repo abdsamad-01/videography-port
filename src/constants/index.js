@@ -1,9 +1,9 @@
 
 export const navLinks = [
-    { id: 201, title: 'Home', href: '' },
-    { id: 202, title: 'Services', href: '#service' },
+    { id: 201, title: 'Home', href: '#hero' },
+    { id: 202, title: 'Services', href: '#services' },
     { id: 209, title: 'Pricing', href: '#pricing' },
-    { id: 207, title: 'Project', href: '#project' },
+    { id: 207, title: 'Project', href: '#projects' },
     { id: 204, title: 'About', href: '#about' },
     { id: 211, title: 'Contact', href: '#contact' },
 ]
@@ -30,39 +30,32 @@ export const navLinks = [
 export const pricings = [
     {
         id: 1,
-        packageTitle: 'Basic (Wedding)',
-        description: 'This package is majorly for smaller weddings ',
-        features: ['Video Shootings', 'Video Editing', 'Flash Drive Containing your work'],
-        price: '#200,000'
-    },
-    {
-        id: 2,
-        packageTitle: 'Standard (Wedding)',
-        description: 'This package is more recommended as it contains additional features',
-        features: ['Video Shootings', 'Video Editing', 'Flash Drive Containing your work', '360 Video Booth'],
+        packageTitle: 'BASIC',
+        description: 'This package is mainly for small weddings which includes: ',
+        features: ['Video Shootings', 'Video Editing', 'A Flash Drive Containing your work'],
         price: '#250,000'
     },
     {
+        id: 2,
+        packageTitle: 'STANDARD',
+        description: 'This package is mainly for small weddings which includes: ',
+        features: ['Video Shootings', 'Video Editing', 'A Flash Drive containing your work', '360 Video Booth'],
+        price: '#450,000'
+    },
+    {
         id: 3,
-        packageTitle: 'Premium (Wedding)',
-        description: 'This package is more recommended as it contains additional features',
-        features: ['Video Shootings', 'Video Editing', 'Flash Drive Containing your work', '360 Video Booth'],
-        price: '#350,000'
+        packageTitle: 'PREMIUM',
+        description: 'This package is mainly for small weddings which includes: ',
+        features: ['Video Shootings', 'Video Editing', 'A Flash Drive containing your work', '360 Video Booth', 'Drone Footage', 'Pre wedding video for each (Engagement/White)'],
+        price: '#500,000'
     },
     {
         id: 4,
-        packageTitle: 'Basic (Live Events)',
-        description: 'This package is majorly for smaller weddings ',
-        features: ['Video Shootings', 'Video Editing', 'Flash Drive Containing your work'],
-        price: '#200,000'
+        packageTitle: 'DIAMOND',
+        description: 'This package is mainly for small weddings which includes: ',
+        features: ['Video Shooting', 'A flash drive containing your work', '360 Video Booth', 'Drone Footage', 'Interviews for the couples, parents and relatives', 'Pre wedding video for each (Engagement/White)'],
+        price: '#600,000'
     },
-    {
-        id: 5,
-        packageTitle: 'Standard (Live Events)',
-        description: 'This package is more recommended as it contains additional features',
-        features: ['Video Shootings', 'Video Editing', 'Flash Drive Containing your work', '360 Video Booth'],
-        price: '#300,000'
-    }
 ]
 
 

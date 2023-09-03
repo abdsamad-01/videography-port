@@ -40,28 +40,28 @@ const Pricing = () => {
     return (
         <div className="py-14" id='pricing'>
             <h2 className='font-satoshi text-3xl font-bold text-center'> PRICING </h2>
-            <div className="flex  mt-5 max-w-full" ref={parentRef}>
+            <div className="flex  min-h-[60vh]  mt-10 max-w-full" ref={parentRef}>
                 <div className="flex flex-row gap-7 w-max overflow-x-scroll no-scrollbar select-none" ref={scrollRef}>
                     {pricings.map(pricing => (
                         <div
                             key={pricing.id}
-                            className="flex flex-col  border bg-gray-50 font-satoshi rounded-md h-[380px] min-w-[320px] sm:w-full relative"
+                            className="flex flex-col  border bg-gray-50 font-satoshi rounded-[8px] h-[450px] min-w-[320px] sm:w-full relative"
                         >
                             <div className='p-4'>
                                 <div>
-                                    <h4 className="text-[1.15rem] font-semibold mb-1"> {pricing.packageTitle} </h4>
+                                    <h4 className="text-[1.15rem] font-semibold mb-2 text-center"> {pricing.packageTitle} </h4>
                                     <span className="text-[0.93rem] font-medium text-gray-800"> {pricing.description} </span>
                                 </div>
 
                                 <div className="flex flex-col mt-3">
                                     <span className="text-3xl font-semibold text-gray-800"> {pricing.price} </span>
-                                    <button type="button" className="mt-5 px-[4px] font-medium py-[10px] bg-btnColor text-gray-50 text-xs">CHOOSE PACKAGE</button>
+                                    <button type="button" className="mt-5 px-[4px] rounded-[3px] font-medium py-[10px] bg-btnColor text-gray-50 text-xs">CHOOSE PACKAGE</button>
                                 </div>
 
                                 <div className='mt-4'>
                                     <span className='text-base font-medium py-1'>Features:</span>
-                                    <ul className="">
-                                        {pricing.features.map(feature => <li key={feature} className="text-[0.85rem] py-[2px] font-medium"> {feature} </li>)}
+                                    <ul className="mt-2">
+                                        {pricing.features.map(feature => <li key={feature} className="text-[0.85rem] py-[2px] font-medium list-disc ml-3"> {feature} </li>)}
                                     </ul>
                                 </div>
                             </div>

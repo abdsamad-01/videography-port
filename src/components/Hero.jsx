@@ -8,7 +8,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const Hero = () => {
     return (
-        <div className="flex flex-row md:flex-col w-full md:px-5 pt-10 sm:px-3 md:pt-24 items-center justify-between pl-20 llg:pl-5 llg:pt-24 md:pl-0 overflow-hidden">
+        <div id="hero" className="flex flex-row md:flex-col w-full md:px-5 pt-10 sm:px-3 md:pt-24 items-center justify-between pl-20 llg:pl-5 llg:pt-24 md:pl-0 overflow-hidden">
             <div className="w-[89%] md:w-full">
                 <div className='md:px-4 sm:px-1'>
                     <img
