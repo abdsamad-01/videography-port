@@ -6,7 +6,7 @@ import menu from '../assets/menu.png'
 import close from '../assets/cross.png'
 
 
-const MenuLinks = ({ isMobile, selected, setSelected }) => {
+const MenuLinks = ({ isMobile, selected, setSelected, setIsOpen }) => {
     return (
         <ul className={`flex flex-row md:flex-col space-x-14 ${isMobile && 'flex-col gap-4 text-[1.15rem] h-full'} md:space-x-0 md:items-center md:justify-center md:min-h-screen `}>
             {navLinks.map(navLink => (
@@ -15,6 +15,7 @@ const MenuLinks = ({ isMobile, selected, setSelected }) => {
                         className={`${selected == navLink.title && 'text-btnColor2'} font-satoshi text-base cursor-pointer`}
                         onClick={() => {
                             setSelected(navLink.title)
+                            setIsOpen(false)
                         }}
                     >
                         {navLink.title}
@@ -75,10 +76,7 @@ const Navbar = () => {
                 }
                 {isOpen && (
                     <div className='fixed top-[62px] inset-0 z-[900] flex flex-col nav-h bg-black text-gray-50'>
-                        <MenuLinks selected={setSelected} setSelected={setSelected} isMobile />
-                        {/* <button type='button' className='bg-btnColor2 mt-5 text-gray-50 sm:hidden px-7 py-[9px] border-none shadow-sm rounded-[4px] font-satoshi text-[13px]'>
-                            Get Started
-                        </button> */}
+                        <MenuLinks selected={setSelected} setSelected={setSelected} isMobile   setIsOpen={setIsOpen} />
                     </div>
                 )}
             </div>
