@@ -50,7 +50,7 @@ const Pricing = () => {
                             <div className='p-4'>
                                 <div>
                                     <h4 className="text-[1.15rem] font-semibold mb-2 text-center"> {pricing.packageTitle} </h4>
-                                    <span className="text-[0.93rem] font-medium text-gray-800"> {pricing.description} </span>
+                                    <span className="text-[0.93rem] font-medium text-gray-800"> This package consists of the features listed below: </span>
                                 </div>
 
                                 <div className="flex flex-col mt-3">
