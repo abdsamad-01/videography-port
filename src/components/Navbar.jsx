@@ -36,7 +36,7 @@ const Navbar = () => {
             <img
                 src={logo}
                 alt='Videographer logo'
-                className='object-contain w-[68px] h-[68px]'
+                className='object-contain w-[65px] h-[60px] sm:ml-[5px]'
             />
 
             <div className='md:hidden'>
