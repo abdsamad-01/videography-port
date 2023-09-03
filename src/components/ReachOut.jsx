@@ -1,5 +1,5 @@
 import { reasons } from "../constants"
-import { BsWhatsapp, BsInstagram } from 'react-icons/bs'
+import { BsInstagram, BsTwitter } from 'react-icons/bs'
 import image from '../assets/360deg.png'
 
 const ReachOut = () => {
@@ -19,11 +19,11 @@ const ReachOut = () => {
                     <p className=" my-8 font-medium">By providing the tools and equipment you require, we can help you produce projects of high quality while saving time and money. reach out to us now to hire the 360 video booth at an affordable price</p>
 
                     <div className="flex flex-row sm:flex-col-reverse sm:space-x-0 items-center justify-start space-x-3">
-                        <a className="flex flex-row items-center sm:mt-3 justify-between space-x-2 border border-gray-400 rounded px-[30px] py-[10px] cursor-pointer">
-                            <BsWhatsapp className='text-gray-500' />
-                            <span className="text-[0.945rem]"> Whatsapp/Call </span>
+                        <a href="https://twitter.com/base_arena" target="blank" className="flex flex-row shadow-sm hover:shadow-md ease-in-out items-center sm:mt-3 justify-between space-x-2 border border-gray-200 rounded px-[30px] py-[10px] cursor-pointer">
+                            <BsTwitter className='text-gray-500' />
+                            <span className="text-[0.945rem]"> Twitter </span>
                         </a>
-                        <a className="flex flex-row items-center justify-between space-x-2 border border-gray-400 rounded px-[30px] py-[10px] cursor-pointer">
+                        <a href="https://www.instagram.com/mabweddings_/" target="blank" className="flex flex-row shadow-sm hover:shadow-md items-center justify-between space-x-2 border border-gray-200 rounded px-[30px] py-[10px] cursor-pointer">
                             <BsInstagram className='text-gray-500' />
                             <span className="text-[0.945rem]"> Instagram </span>
                         </a>
