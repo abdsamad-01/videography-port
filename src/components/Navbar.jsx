@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState } from 'react'
-import logo from '../assets/logo.png'
+import logo from '../assets/brand-logo.png'
 import { navLinks } from '../constants'
 import menu from '../assets/menu.png'
 import close from '../assets/cross.png'
@@ -36,7 +36,7 @@ const Navbar = () => {
             <img
                 src={logo}
                 alt='Videographer logo'
-                className='object-contain w-[75px] h-[75px]'
+                className='object-contain w-[68px] h-[68px]'
             />
 
             <div className='md:hidden'>

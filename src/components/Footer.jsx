@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import logo from '../assets/logo.png'
+import logo from '../assets/brand-logo.png'
 import { navLinks } from '../constants'
 
 const Footer = () => {
@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <div className='w-full flex mx-auto flex-col justify-center items-center'>
             <div className="py-1 px-14 md:px-2">
-                <div className='w-[80px] h-[80px]'>
+                <div className='w-[70px] h-[70px]'>
                     <img
                         src={logo}
                         alt='Videographer logo'
