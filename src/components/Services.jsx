@@ -1,6 +1,4 @@
-// import { service1, service2, service3 } from '../assets/index'
 import Images from '../assets/index'
-
 
 const Services = () => {
     return (
