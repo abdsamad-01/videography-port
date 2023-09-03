@@ -17,7 +17,7 @@ const Enquiry = () => {
                     <BsInstagram className='text-gray-500' />
                     <span className="text-[0.9rem]"> Instagram </span>
                 </a>
-                <a className="flex flex-row items-center justify-center space-x-2 border border-gray-400 text-gray-950 font-medium rounded px-9 py-2 cursor-pointer">
+                <a href="https://www.youtube.com/@musicarenabase37" target="blank" className="flex flex-row items-center justify-center space-x-2 border border-gray-400 text-gray-950 font-medium rounded px-9 py-2 cursor-pointer">
                     <BsYoutube className='text-gray-500' />
                     <span className="text-[0.9rem]"> Youtube </span>
                 </a>
