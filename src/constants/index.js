@@ -1,30 +1,12 @@
 
 export const navLinks = [
     { id: 201, title: 'Home', href: '#hero' },
-    { id: 202, title: 'Services', href: '#services' },
+    { id: 202, title: 'Services', href: '#service' },
     { id: 209, title: 'Pricing', href: '#pricing' },
     { id: 207, title: 'Project', href: '#projects' },
     { id: 204, title: 'About', href: '#about' },
     { id: 211, title: 'Contact', href: '#contact' },
 ]
-
-// export const services = [
-//     {
-//         image: { service1 },
-//         title: 'Wedding Videography',
-//         description: 'I capture weddings and assist enthusiastic couples in keeping memories of their special day.'
-//     },
-//     {
-//         image: { service2 },
-//         title: 'Wedding Videography',
-//         description: 'I capture weddings and assist enthusiastic couples in keeping memories of their special day.'
-//     },
-//     {
-//         image: { service3 },
-//         title: 'Wedding Videography',
-//         description: 'I capture weddings and assist enthusiastic couples in keeping memories of their special day.'
-//     },
-// ]
 
 
 export const pricings = [
