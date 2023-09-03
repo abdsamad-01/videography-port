@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState } from 'react'
-import logo from '../assets/videographer-logo.png'
+import logo from '../assets/logo.png'
 import { navLinks } from '../constants'
 import menu from '../assets/menu.png'
 import close from '../assets/cross.png'
@@ -31,12 +31,12 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
 
     return (
-        <div className="bg-black w-full fixed top-0 z-[900] flex flex-row items-center justify-between py-1 px-14 md:px-4 sm:px-1">
+        <div className="bg-black w-full fixed top-0 z-[900] flex flex-row items-center justify-between  px-14 md:px-4 sm:px-1">
             {/* <div className='w-[60px] h-[60px]'> */}
             <img
                 src={logo}
                 alt='Videographer logo'
-                className='object-contain w-[55px] h-[55px]'
+                className='object-contain w-[75px] h-[75px]'
             />
 
             <div className='md:hidden'>

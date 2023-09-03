@@ -1,7 +1,4 @@
 import { reasons } from "../constants"
-import 'animate.css';
-import "animate.css/animate.min.css";
-import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { BsWhatsapp, BsInstagram } from 'react-icons/bs'
 import image from '../assets/360deg.png'
 
@@ -20,9 +17,7 @@ const ReachOut = () => {
 
                 <div className="w-[70%] md:w-full">
                     <h3 className="font-bold text-4xl sm:text-3xl">We are Aware of the Significance of Using the Appropriate Equipment for Appropriate Job.</h3>
-                    <AnimationOnScroll animateIn="animate__fadeInUp" initiallyVisible={true}>
-                        <p className=" my-8 font-medium animate__animated animate__fadeInUp">By providing the tools and equipment you require, we can help you produce projects of high quality while saving time and money. reach out to us now to hire the 360 video booth at an affordable price</p>
-                    </AnimationOnScroll>
+                    <p className=" my-8 font-medium">By providing the tools and equipment you require, we can help you produce projects of high quality while saving time and money. reach out to us now to hire the 360 video booth at an affordable price</p>
 
                     <div className="flex flex-row sm:flex-col-reverse sm:space-x-0 items-center justify-start space-x-3">
                         <a className="flex flex-row items-center sm:mt-3 justify-between space-x-2 border border-gray-400 rounded px-[30px] py-[10px]">

@@ -8,7 +8,7 @@ function App() {
                 <Hero />
             </div>
 
-            <div className='bg-variant pt-14 sm:pt-6 px-28 llg:px-12 md:px-4'>
+            <div className='bg-linear-gradient(rgb(243, 244, 246), rgb(209, 213, 219)) pt-14 sm:pt-6 px-28 llg:px-12 md:px-4'>
                 <Services />
                 <Pricing />
             </div>
@@ -18,7 +18,7 @@ function App() {
                 <Stats />
             </div>
 
-            <div className='bg-variant py-14 px-24 llg:px-12 md:px-5 sm:px-4'>
+            <div className='bg-linear-gradient(rgb(243, 244, 246), rgb(209, 213, 219)) py-14 px-24 llg:px-12 md:px-5 sm:px-4'>
                 <ReachOut />
             </div>
 
@@ -26,14 +26,14 @@ function App() {
                 <Testimonies />
             </div>
 
-            <div className='bg-variant py-14 sm:py-6 px-28 llg:px-12 md:px-4'>
+            <div className='bg-linear-gradient(rgb(243, 244, 246), rgb(209, 213, 219)) py-14 sm:py-6 px-28 llg:px-12 md:px-4'>
                 <AboutMe />
             </div>
             <div>
                 <Contact />
             </div>
 
-            <div className='bg-variant py-24 px-28 md:px-5 sm:px-4'>
+            <div className='bg-linear-gradient(rgb(243, 244, 246), rgb(209, 213, 219)) py-24 px-28 md:px-5 sm:px-4'>
                 <Enquiry />
             </div>
 
