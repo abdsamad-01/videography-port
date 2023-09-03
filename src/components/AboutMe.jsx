@@ -9,7 +9,7 @@ const AboutMe = () => {
                     src={image}
                     alt='About Me'
                     // height={500}
-                    className='object-contain md:mx-auto sm:mx-0 rounded-sm'
+                    className='object-contain md:mx-auto sm:mx-0 rounded-md'
                 />
             </div>
 
